@@ -1,6 +1,6 @@
 # Wikiracer
 
-A bot for Wikipedia races.
+A bot for Wikipedia races. Forked form: https://github.com/phrmsilva/Wikiracer
 
 ## Abstract
 #### What did I do in a nutshell? 
@@ -46,6 +46,12 @@ Output: Miley_Cyrus -> Los_Angeles
 
 #### Breadth First Search With "Preparation"
 This is an approach with a similar algorithm to Breadth First Search, just adapted similarly to the approaches used in the '6 Degrees of Hitler' (see 'Introduction'). Before running the search, it prepares a list of pages that are known to link to the destination. While that process may consume a relevant amount of runtime, it makes the overall algorithm more efficient, as the search becomes aims at a set of pages instead of only one.
+
+----
+## Languages
+
+The default language is english (en). Orther supported languages are german (de) or french (fr). For all other languages it will used the english a default.
+
 
 ------
 
@@ -103,8 +109,16 @@ $ python pages.py [MODE] [SOURCE] [DESTINATION]
 ```
 I suggest the following for demo:
 ```console
-$ python pages.py dfs Miley_Cyrus Canada
+$ python pages.py dfs Miley_Cyrus Canada 
 ```
 ```console
-$ python pages.py bfs Miley_Cyrus City
+$ python pages.py bfs Miley_Cyrus City de
+```
+To use a language like german or france run with [Language]:
+```console
+$ python pages.py [MODE] [SOURCE] [DESTINATION] [LANGUAGE]
+```
+I suggest the following for demo:
+```console
+$ python pages.py dfs Miley_Cyrus Kanada de 
 ```
