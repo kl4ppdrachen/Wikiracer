@@ -50,7 +50,7 @@ This is an approach with a similar algorithm to Breadth First Search, just adapt
 ----
 ## Languages
 
-The default language is english (en). Orther supported languages are german (de) or french (fr). For all other languages it will used the english a default.
+The default language is English (en). Other supported languages are German (de) or French (fr). For all other languages, it will use the English a default.
 
 
 ------
