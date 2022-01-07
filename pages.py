@@ -125,7 +125,7 @@ def main():
         exit()
     elif (len(sys.argv) > 4):
         global lang
-        lang = sys.argv[4]
+        lang = sys.argv[4].lower()
         if lang not in LANGUAGES:
             lang = "en"
 
