@@ -1,6 +1,6 @@
 # Wikiracer
 
-A bot for Wikipedia races. Forked form: https://github.com/phrmsilva/Wikiracer
+A bot for Wikipedia races. Forked form: https://github.com/phrmsilva/Wikiracer with python 3.10+ support and language option.
 
 ## Abstract
 #### What did I do in a nutshell? 
@@ -50,7 +50,7 @@ This is an approach with a similar algorithm to Breadth First Search, just adapt
 ----
 ## Languages
 
-The default language is English (en). Other supported languages are German (de) or French (fr). For all other languages, it will use the English a default.
+The default language is English (en). Other supported languages are German (de) or French (fr). For all other languages, English is used as default.
 
 
 ------
